@@ -32,9 +32,6 @@ Assignment1_YourName/
 │── README.md
 
 ⚙️ Setup Instructions
-✅ Clone Project
-cd Assignment1_YourName
-
 ✅ Create Virtual Environment
 
 Windows
