@@ -1,0 +1,15 @@
+# Python venv
+venv/
+.env
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# PDFs, datasets, outputs (optional)
+*.pdf
+*.csv
+*.db
+
+# OS/system files
+.DS_Store
+Thumbs.db
