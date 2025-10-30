@@ -1,0 +1,153 @@
+======================================================================
+COURSE NOTES CHATBOT - TEST RESULTS
+======================================================================
+Test Date: 2025-10-30 20:12:56
+Total Queries: 10
+Successful: 10
+Failed: 0
+======================================================================
+
+
+======================================================================
+QUERY 1
+======================================================================
+
+Question: What is Big Data?
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+Big Data refers to large datasets, such as the ones used in examples for online fraud detection of share market data, object detection and classification for traffic analysis, and sentiment analysis. These datasets appear to be extensive and complex, requiring various data analytics tools and techniques to process and analyze. The characteristics of Big Data are often referred to as the 5 Vs: Volume, Variety, Velocity, Veracity, and Value, which refer to the large amount of data, different types of data, speed at which data is generated and processed, accuracy and reliability of the data, and usefulness and relevance of the data in extracting insights and making decisions, respectively.
+----------------------------------------------------------------------
+
+======================================================================
+QUERY 2
+======================================================================
+
+Question: Explain the MapReduce programming model
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+The MapReduce programming model is a disk-based system that writes intermediate results to disk. It is primarily focused on batch processing and requires developers to write code in Java or other languages that can be compiled to Java bytecode. This model is often used for legacy systems or specific use cases where its disk-based approach is beneficial. In MapReduce, data is processed in two main phases: the map phase and the reduce phase. The map phase takes input data, processes it, and produces output in the form of key-value pairs. The reduce phase then takes these key-value pairs, aggregates them, and produces the final output. This approach allows for scalable and efficient processing of large datasets, but can be slower than other models, such as Apache Spark, which uses in-memory computation.
+----------------------------------------------------------------------
+
+======================================================================
+QUERY 3
+======================================================================
+
+Question: What are the main components of Hadoop ecosystem?
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+The main components of the Hadoop ecosystem are not explicitly mentioned. The information provided seems to be related to deep learning, TensorFlow, and data analysis, but it does not discuss Hadoop or its ecosystem. Therefore, it is not possible to provide an answer based on the given information.
+----------------------------------------------------------------------
+
+======================================================================
+QUERY 4
+======================================================================
+
+Question: Describe HDFS architecture
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+There is no information about HDFS architecture in the given context. The context appears to be related to deep learning models, sequence-to-sequence models, and data analysis, but it does not mention HDFS (Hadoop Distributed File System) or its architecture.
+----------------------------------------------------------------------
+
+======================================================================
+QUERY 5
+======================================================================
+
+Question: What is the difference between Hive and HBase?
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+There is no information provided about Hive and HBase. The context appears to be related to deep learning models, and does not mention Hive or HBase. Therefore, it is not possible to provide an answer to the query based on the provided context.
+----------------------------------------------------------------------
+
+======================================================================
+QUERY 6
+======================================================================
+
+Question: Explain the CAP theorem
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+There is no information about the CAP theorem in the given context. The context appears to be related to deep learning, natural language processing, and sequence-to-sequence models, but it does not mention the CAP theorem.
+----------------------------------------------------------------------
+
+======================================================================
+QUERY 7
+======================================================================
+
+Question: What is NoSQL and when should it be used?
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+There is no information provided about NoSQL in the given context. The context appears to be related to various exercises and programs using deep learning techniques such as RNN, CNN, and DNN for tasks like language modeling, face recognition, and online fraud detection. Therefore, it is not possible to provide an answer to the query based on the given information.
+----------------------------------------------------------------------
+
+======================================================================
+QUERY 8
+======================================================================
+
+Question: Describe the role of NameNode in Hadoop
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+There is no information provided about Hadoop or the role of NameNode. The context appears to be related to deep learning and Python programming, with code snippets and examples from various sources, but it does not mention Hadoop or its components.
+----------------------------------------------------------------------
+
+======================================================================
+QUERY 9
+======================================================================
+
+Question: What are the characteristics of Big Data (Vs)?
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+The characteristics of Big Data are often referred to as the 5 Vs: 
+
+1. Volume: Refers to the large amount of data that is generated and stored.
+2. Variety: Refers to the different types of data that are generated, such as text, images, videos, and sensor data.
+3. Velocity: Refers to the speed at which data is generated and processed.
+4. Veracity: Refers to the accuracy and reliability of the data.
+5. Value: Refers to the usefulness and relevance of the data in extracting insights and making decisions.
+----------------------------------------------------------------------
+
+======================================================================
+QUERY 10
+======================================================================
+
+Question: How does Apache Spark differ from Hadoop MapReduce?
+
+Status: SUCCESS
+
+Response:
+----------------------------------------------------------------------
+Apache Spark and Hadoop MapReduce are both big data processing frameworks, but they differ in their approach, design, and use cases. 
+
+Spark is designed for speed and efficiency, using in-memory computation to process data, whereas MapReduce is a disk-based system that writes intermediate results to disk. This makes Spark much faster than MapReduce for certain types of workloads, especially those that require multiple iterations over the same data.
+
+Another key difference is that Spark provides a more comprehensive set of APIs and libraries for tasks like machine learning, graph processing, and streaming, whereas MapReduce is primarily focused on batch processing. 
+
+In terms of programming model, Spark provides a higher-level API, allowing developers to write code in languages like Java, Python, and Scala, whereas MapReduce requires developers to write code in Java or other languages that can be compiled to Java bytecode.
+
+Overall, while both Spark and MapReduce can be used for big data processing, Spark is generally preferred for its speed, flexibility, and ease of use, whereas MapReduce is often used for legacy systems or specific use cases where its disk-based approach is beneficial.
+----------------------------------------------------------------------
